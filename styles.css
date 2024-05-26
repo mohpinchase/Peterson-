@@ -208,7 +208,7 @@ nav {
     padding: 0 5px;
     overflow: hidden;
     gap:40px;
-    width: 80vw; /* Adjust as needed */
+    width: 60vw; /* Adjust as needed */
 }
 
 .gallery figure {
@@ -303,10 +303,10 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 10px;
     flex-wrap:wrap;
-    padding: 15px;
-    gap:40px;
+    padding: 5px;
+    gap:10px;
 }
 
 .gallery {
@@ -315,8 +315,8 @@ figcaption {
     width: 33.33%;
     padding: 0 5px;
     overflow: hidden;
-    gap:40px;
-    width: 80vw; /* Adjust as needed */
+    gap:10px;
+    width: 40vw; /* Adjust as needed */
 }
 
 .gallery figure {
@@ -325,10 +325,10 @@ figcaption {
     margin-right: 10px; /* Adjust spacing between images */
     transition: transform 0.5s ease;
     width: 100%;
-    max-width: 400px;
-    height: 300px;
+    max-width: 150px;
+    height: 100px;
     justify-content: space-between;
-    gap:40px;
+    gap:10px;
     
     object-fit: cover;
     padding: 0 5px;
@@ -338,10 +338,10 @@ figcaption {
     height: auto;
     margin-right: 1px; /* Adjust spacing between images */
     transition: transform 0.5s ease;
-    max-width: 400px;
-    height: 300px;
+    max-width: 200px;
+    height: 100px;
     justify-content: space-between;
-    gap:20px;
+    gap:10px;
     
     object-fit: cover;
     padding: 0 5px;
@@ -359,7 +359,7 @@ figcaption {
     background-color: #ec3b05;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     cursor: pointer;
 }
 
@@ -378,9 +378,9 @@ figcaption {
 .right{
     float: right;
     border: 1px dotted rgb(130, 241, 3);
-  margin: 0px 0px 15px 20px;
-  width:590px;
-  height:430px;
+  margin: 0px 0px 5px 10px;
+  width:90px;
+  height:30px;
   
 }
 }
