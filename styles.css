@@ -315,11 +315,17 @@ figcaption {
 
 .move-left,
 .move-right {
-    background-color: #ec3b05;
-    color: white;
-    border: none;
-    padding: 2px 4px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   background-color: rgba(0, 0, 0, 0.2);*/
+   
+    color: #fff;
+    border:1px double #000;
+    border-width: thick ;
+    padding: 10px;
     cursor: pointer;
+    border-radius:50%;
 
 }
 .move-left:hover,
@@ -337,7 +343,7 @@ figcaption {
 .right{
     float: right;
     border: 1px dotted rgb(130, 241, 3);
-  margin: 0px 0px 5px 10px;
+  /*margin: 0px 0px 5px 10px;*/
   width:90px;
   height:30px;
   
@@ -430,7 +436,7 @@ figcaption {
 .right{
     float: right;
     border: 1px dotted rgb(130, 241, 3);
-  margin: 0px 0px 15px 20px;
+  /*margin: 0px 0px 15px 20px;*/
   width:590px;
   height:430px;
   
