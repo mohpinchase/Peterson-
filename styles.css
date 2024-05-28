@@ -318,10 +318,10 @@ figcaption {
     background-color: #ec3b05;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 2px 4px;
     cursor: pointer;
-}
 
+}
 .move-left:hover,
 .move-right:hover {
     background-color: #00b318;
@@ -402,11 +402,17 @@ figcaption {
 
 .move-left,
 .move-right {
-    background-color: #ec3b05;
-    color: white;
-    border: none;
-    padding: 10px 20px;
+     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   background-color: rgba(0, 0, 0, 0.2);*/
+   
+    color: #fff;
+    border:1px double #000;
+    border-width: thick ;
+    padding: 10px;
     cursor: pointer;
+    border-radius:50%;
 }
 
 .move-left:hover,
