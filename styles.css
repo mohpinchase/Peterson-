@@ -284,11 +284,7 @@ figcaption {
 }
 
 .gallery-container {
-	 position: relative;
-    width: 90%;
-    margin: 20px auto;
-    overflow: hidden;
-    max-width:1200px;
+	
     position: relative;
     display: flex;
     align-items: center;
@@ -312,9 +308,7 @@ figcaption {
 
 .gallery figure {
 	 min-width: 25%;
-    margin: 0 10px;
-    text-align: center;
-    box-sizing: border-box;
+   
     max-width: 100%;
     height: auto;
     margin-right: 10px;  Adjust spacing between images 
