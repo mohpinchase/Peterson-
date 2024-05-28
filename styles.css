@@ -264,42 +264,22 @@ figcaption {
     .header-icons i {
         font-size: 16px;
     }
- .gallery {
-    
-    display: flex;
-    width: 33.33%;
-    padding: 0 5px;
-    overflow: hidden;
+	.gallery {
     gap:10px;
-    width: 40vw; /* Adjust as needed */
+    padding:5px; /* Adjust as needed */
 }
 
 .gallery figure {
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px; /* Adjust spacing between images */
-    transition: transform 0.5s ease;
-    width: 100%;
-    max-width: 150px;
-    height: 100px;
-    justify-content: space-between;
-    gap:10px;
-    
+    width:150px;
+	padding:5px;
+}
+.gallery figure img{
+   width:150px;
+	border-radius:8%;
+    padding: 0 5px;
     object-fit: cover;
     padding: 0 5px;
 }
-.gallery figure img{
-    border-radius: 8%;
-    height: auto;
-    margin-right: 1px; /* Adjust spacing between images */
-    transition: transform 0.5s ease;
-    max-width: 200px;
-    height: 100px;
-    justify-content: space-between;
-    gap:10px;
-    
-    object-fit: cover;
-    padding: 0 5px;
 }
 figcaption {
     background-color: black;
