@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const gallery = document.querySelector('.gallery');
-    const moveLeftBtn = document.querySelector('.move-left');
-    const moveRightBtn = document.querySelector('.move-right');
+    const moveLeftBtn = document.querySelector('.prev');
+    const moveRightBtn = document.querySelector('.next');
     
     moveLeftBtn.addEventListener('click', function () {
         gallery.scrollBy({
