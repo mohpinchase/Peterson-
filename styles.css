@@ -268,16 +268,39 @@ figcaption {
     gap:10px;
     padding:5px; /* Adjust as needed */
 }
-
 .gallery figure {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px; /* Adjust spacing between images */
+    transition: transform 0.5s ease;
+    
+    max-width: 200px;
+    height: 100px;
+    justify-content: space-between;
+    gap:20px;
+    
+    object-fit: cover;
+    
+
     width:150px;
-	margin-right:10px;
+	
 	padding:5px;
 }
 .gallery figure img{
    width:150px;
 	border-radius:8%;
     padding: 0 5px;
+    object-fit: cover;
+    padding: 0 5px;
+	 border-radius: 8%;
+    height: auto;
+    margin-right: 1px; /* Adjust spacing between images */
+    transition: transform 0.5s ease;
+    max-width: 200px;
+    height: 100px;
+    justify-content: space-between;
+    gap:20px;
+    
     object-fit: cover;
     padding: 0 5px;
 }
