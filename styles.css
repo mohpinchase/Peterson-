@@ -271,6 +271,7 @@ figcaption {
 
 .gallery figure {
     width:150px;
+	margin-right:10px;
 	padding:5px;
 }
 .gallery figure img{
@@ -335,10 +336,10 @@ figcaption {
     justify-content: space-between;
     display: flex;
     width: 33.33%;
-    padding: 0 5px;
+    padding:2px;
     overflow: hidden;
-    gap:40px;
-    width: 80vw; /* Adjust as needed */
+    gap:20px;
+    width: 50vw; /* Adjust as needed */
 }
 
 .gallery figure {
@@ -350,7 +351,7 @@ figcaption {
     max-width: 400px;
     height: 300px;
     justify-content: space-between;
-    gap:40px;
+    gap:20px;
     
     object-fit: cover;
     padding: 0 5px;
