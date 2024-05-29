@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const gallery = document.querySelector('.gallery');
-    const moveLeftBtn = document.querySelector('.prev');
-    const moveRightBtn = document.querySelector('.next');
+    const moveLeftBtn = document.querySelector('.move-left');
+    const moveRightBtn = document.querySelector('.move-right');
     
     moveLeftBtn.addEventListener('click', function () {
         gallery.scrollBy({
@@ -17,23 +17,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
-// const imageContainer = document.querySelector('.image-container');
-// const prevBtn = document.querySelector('.prev-btn');
-// const nextBtn = document.querySelector('.next-btn');
-// const images = document.querySelectorAll('.image-container img');
+const imageContainer = document.querySelector('.image-container');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+const images = document.querySelectorAll('.image-container img');
 
-// let currentIndex = 0;
-// const scrollAmount = images[0].offsetWidth + 20; // Width of one image plus some margin
+let currentIndex = 0;
+const scrollAmount = images[0].offsetWidth + 20; // Width of one image plus some margin
 
-// prevBtn.addEventListener('click', () => {
-//   currentIndex = (currentIndex - 1 + images.length) % images.length;
-//   imageContainer.scrollLeft -= scrollAmount;
-// });
+prevBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  imageContainer.scrollLeft -= scrollAmount;
+});
 
-// nextBtn.addEventListener('click', () => {
-//   currentIndex = (currentIndex + 1) % images.length;
-//   imageContainer.scrollLeft += scrollAmount;
-// });
+nextBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  imageContainer.scrollLeft += scrollAmount;
+});
 // function moveImages(direction) {
 // 	const container = document.querySelector('.image-container');
 // 	const images = container.querySelectorAll('.image');
