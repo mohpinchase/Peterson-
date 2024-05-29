@@ -190,9 +190,9 @@ nav {
         position: static;
         width: auto;
     }
-/* 	.gallery {
+	.gallery {
     gap:10px;
-    padding:5px; /* Adjust as needed 
+    padding:5px;  Adjust as needed 
 }
  
 .gallery figure {
@@ -210,7 +210,7 @@ figcaption {
     font-style: italic;
     padding: 1px;
     text-align: center;
-  }*/
+  }
 }
 
 @media (max-width: 480px) {
@@ -233,14 +233,14 @@ figcaption {
     .header-icons i {
         font-size: 16px;
     }
-/* 	.gallery {
+	.gallery {
     gap:10px;
-    padding:5px; /* Adjust as needed 
+    padding:5px;  Adjust as needed 
 } 
 .gallery figure {
     max-width: 100%;
     height: auto;
-    margin-right: 10px; /* Adjust spacing between images 
+    margin-right: 10px;  Adjust spacing between images 
     transition: transform 0.5s ease;
     
     max-width: 200px;
@@ -280,7 +280,7 @@ figcaption {
     font-style: italic;
     padding: 1px;
     text-align: center;
-  }   */
+  }   
 }
 
 .gallery-container {
@@ -325,7 +325,7 @@ figcaption {
 .gallery figure img{
     border-radius: 8%;
     height: auto;
-    margin-right: 1px; /* Adjust spacing between images 
+    margin-right: 1px; /* Adjust spacing between images*/ 
     transition: transform 0.5s ease;
     max-width: 400px;
     height: 300px;
@@ -337,7 +337,7 @@ figcaption {
 	 width: 100%;
     height: auto;
     border:2px solid #000;
-}*/
+}
 figcaption {
     background-color: black;
     color: white;
