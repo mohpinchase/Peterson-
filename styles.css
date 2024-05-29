@@ -303,7 +303,7 @@ figcaption {
     overflow: hidden;
 	 transition: transform 0.5s ease;
     gap:20px;
-    width: 50vw; /* Adjust as needed */
+    width: 50vw; /* Adjust as needed 
 }
 
 .gallery figure {
@@ -325,7 +325,7 @@ figcaption {
 .gallery figure img{
     border-radius: 8%;
     height: auto;
-    margin-right: 1px; /* Adjust spacing between images */
+    margin-right: 1px; /* Adjust spacing between images 
     transition: transform 0.5s ease;
     max-width: 400px;
     height: 300px;
@@ -337,7 +337,7 @@ figcaption {
 	 width: 100%;
     height: auto;
     border:2px solid #000;
-}
+}*/
 figcaption {
     background-color: black;
     color: white;
