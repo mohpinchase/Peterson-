@@ -391,7 +391,7 @@ footer {
   }
   @media (max-width: 768px) {
     .gallery {
-      justify-content: flex-start;
+      justify-content: center;
     }
   }
   
