@@ -190,11 +190,11 @@ nav {
         position: static;
         width: auto;
     }
-	.gallery {
+/* 	.gallery {
     gap:10px;
     padding:5px; /* Adjust as needed */
 }
-
+ */
 .gallery figure {
     width:150px;
 	padding:5px;
@@ -233,10 +233,10 @@ figcaption {
     .header-icons i {
         font-size: 16px;
     }
-	.gallery {
+/* 	.gallery {
     gap:10px;
     padding:5px; /* Adjust as needed */
-}
+} */
 .gallery figure {
     max-width: 100%;
     height: auto;
@@ -346,7 +346,7 @@ figcaption {
     text-align: center;
   }
 
-.prev, .next {
+/* .prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -370,7 +370,7 @@ figcaption {
 
 .prev:hover, .next:hover {
     color :#008080;
-}
+} */
 hr{
     
     margin-top: 11px;
