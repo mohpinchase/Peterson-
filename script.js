@@ -17,6 +17,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+const imageContainer = document.querySelector('.image-container');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+const images = document.querySelectorAll('.image-container img');
+
+let currentIndex = 0;
+const scrollAmount = images[0].offsetWidth + 20; // Width of one image plus some margin
+
+prevBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + images.length) % images.length;
+  imageContainer.scrollLeft -= scrollAmount;
+});
+
+nextBtn.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  imageContainer.scrollLeft += scrollAmount;
+});
 // function moveImages(direction) {
 // 	const container = document.querySelector('.image-container');
 // 	const images = container.querySelectorAll('.image');
