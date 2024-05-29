@@ -350,7 +350,7 @@ figcaption {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-   background-color: rgba(0, 0, 0, 0.2);*/
+   background-color: rgba(0, 0, 0, 0.2);
    
     color: #fff;
     border:1px double #000;
@@ -451,13 +451,13 @@ footer {
   align-items: center;
 }
 
-.image-container {
+.image-container figure {
   display: flex;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.image-container img {
+.image-container figure img {
   flex: 0 0 auto;
   width: 300px;
   height: 200px;
