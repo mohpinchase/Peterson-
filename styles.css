@@ -329,7 +329,7 @@ hr{
 
 
 footer {
-    background-color;green;
+    background-color:green;
     
     padding: 20px 0;
 }
@@ -422,14 +422,6 @@ footer {
     display: flex;
     overflow-x: hidden;
     scroll-behavior: smooth;
-  }
-  
-  .image-container img {
-    flex: 0 0 auto;
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    margin: 0 10px;
   }
   
   .prev-btn,
