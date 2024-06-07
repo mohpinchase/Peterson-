@@ -313,7 +313,7 @@ hr{
     
     margin-top: 11px;
     margin-bottom: 10px;
-    border: 2px solid rgb(26, 53, 28);
+    border: 3px solid rgb(263, 153, 228);
 }
 .story{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -454,7 +454,7 @@ footer {
   border-radius: 25px;
   outline: none;
   overflow: hidden;
-  color: rgb(255,0,0);
+  color: rgb(255,255,230);
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
 }
